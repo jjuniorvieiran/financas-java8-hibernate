@@ -14,6 +14,15 @@ public class Categoria {
     private String nome;
     // getters e setters omitidos
     
+    @Deprecated
+    public Categoria() { 
+    }
+
+    public Categoria(String nome) {
+        super();
+        this.nome = nome;
+    }
+    
 	public Integer getId() {
 		return id;
 	}
